@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PCROOM</string>
+    <string name="login_msg">로그인을 해주세요</string>
+    <string name="login_id">아이디 : </string>
+    <string name="login_pw">비밀번호 : </string>
+    <string name="login_btn">로그인</string>
+    <string name="web_btn">웹뷰1</string>
+    <string name="web_btn1">웹뷰2</string>
+    <string name="kakao_app_key">0bcaec31cfa590b0b4de3a912d2d3b8b</string>
+</resources>

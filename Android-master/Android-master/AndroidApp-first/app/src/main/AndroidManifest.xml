@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.form.gaip">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/pc"
+        android:label="피시방앱"
+        android:roundIcon="@drawable/pc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCQj1mXMRdODrXeARjbbO0bGRHawsNBLek" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupPage"/>
+        <activity android:name=".MenuPage"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ChargeActivity"/>
+        <activity android:name=".Pc_ChuGa"/>
+        <activity android:name=".SeatActivity"/>
+        <activity android:name=".LoadingActivity"/>
+        <activity android:name=".MoneyActivity"/>
+        <activity android:name=".UsingActivity"/>
+        <activity android:name=".ExitActivity"/>
+        <activity android:name=".MoneyActivity2"/>
+
+    </application>
+
+</manifest>

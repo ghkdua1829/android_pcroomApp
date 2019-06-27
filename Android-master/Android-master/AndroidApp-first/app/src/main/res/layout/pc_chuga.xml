@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/borderline"
+    >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="등록"
+            android:background="#00a7f5"
+            android:textColor="#fff"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:id="@+id/insertButton"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/userName"
+            android:gravity="center"
+            android:text="NAME"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/seatNum"
+            android:gravity="center"
+            android:text="Num"
+            android:textSize="16dp"
+            android:textColor="#ff00"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/location"
+            android:gravity="center"
+            android:text="Location"
+            android:textSize="16dp"
+            android:textColor="#00f"
+            />
+    </LinearLayout>
+</LinearLayout>
+

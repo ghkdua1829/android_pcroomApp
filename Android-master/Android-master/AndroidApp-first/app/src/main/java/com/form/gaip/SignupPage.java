@@ -98,6 +98,8 @@ public class SignupPage extends Activity {
                 loading.dismiss();
                 Toast.makeText(getApplicationContext(), s, Toast.LENGTH_LONG).show();
                 if(s.equalsIgnoreCase("회원가입에 성공하셨습니다.")){
+                    Intent intent = new Intent(SignupPage.this, LoginActivity.class);
+                    startActivity(intent);
                     finish();
                 }
             }
